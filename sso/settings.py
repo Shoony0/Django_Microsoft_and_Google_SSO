@@ -126,15 +126,15 @@ STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # Microsoft SSO Configurations
-MICROSOFT_CLIENT_ID = "9b29ff5c-3661-408a-a11e-1cb13da6d27b"
-MICROSOFT_CLIENT_SECRET = "heq8Q~1f_q4z6pTd0TIaX7nyBJgHeRHE1833mbZp"
+MICROSOFT_CLIENT_ID = "<CLIENT_ID>"
+MICROSOFT_CLIENT_SECRET = "<CLIENT_SECRET>"
 MICROSOFT_AUTHORITY = "https://login.microsoftonline.com/0523553c-c9ba-4dda-b22a-f3a3ec84125f"
 MICROSOFT_REDIRECT_URI = "http://localhost:8000/api/auth/microsoft/callback/"
 MICROSOFT_SCOPES = ["openid", "email", "profile", "User.Read"]
 
 # Microsoft SSO Configurations
-GOOGLE_CLIENT_ID = "967158974525-62qo4cknokmklqme5a82cahhst1dk5aa.apps.googleusercontent.com"
-GOOGLE_CLIENT_SECRET = "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"
+GOOGLE_CLIENT_ID = "<CLIENT_ID>"
+GOOGLE_CLIENT_SECRET = "<CLIENT_SECRET>"
 GOOGLE_AUTHORITY = "https://accounts.google.com/o/oauth2"
 GOOGLE_REDIRECT_URI = "http://localhost:8000/api/auth/google/callback/"
 GOOGLE_SCOPES = ["openid", "email", "profile", "https://www.googleapis.com/auth/drive.metadata.readonly", "https://www.googleapis.com/auth/calendar.readonly"]
