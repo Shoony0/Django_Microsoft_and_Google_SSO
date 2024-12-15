@@ -128,11 +128,11 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 # Microsoft SSO Configurations
 MICROSOFT_CLIENT_ID = "<CLIENT_ID>"
 MICROSOFT_CLIENT_SECRET = "<CLIENT_SECRET>"
-MICROSOFT_AUTHORITY = "https://login.microsoftonline.com/0523553c-c9ba-4dda-b22a-f3a3ec84125f"
+MICROSOFT_AUTHORITY = "https://login.microsoftonline.com/<YOUR_TENANT_ID>"
 MICROSOFT_REDIRECT_URI = "http://localhost:8000/api/auth/microsoft/callback/"
 MICROSOFT_SCOPES = ["openid", "email", "profile", "User.Read"]
 
-# Microsoft SSO Configurations
+# Google SSO Configurations
 GOOGLE_CLIENT_ID = "<CLIENT_ID>"
 GOOGLE_CLIENT_SECRET = "<CLIENT_SECRET>"
 GOOGLE_AUTHORITY = "https://accounts.google.com/o/oauth2"
