@@ -2,7 +2,19 @@
 Setup Single Sign-On (SSO) with Django
 
 # Uses
-### Clone the repo and go to root folder and run server
+### Clone the repo and go to `Django_Microsoft_and_Google_SSO` folder
+```bash
+git clone https://github.com/Shoony0/Django_Microsoft_and_Google_SSO.git
+cd Django_Microsoft_and_Google_SSO
+```
+
+### Create and activate the env
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+### Run the Django Server
 ```bash
 python manage.py runserver
 ```
