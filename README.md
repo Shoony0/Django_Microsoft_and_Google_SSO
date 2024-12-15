@@ -1,6 +1,9 @@
 # Django_Microsoft_and_Google_SSO
 Setup Single Sign-On (SSO) with Django
 
+### Python Version
+Python 3.12.3
+
 # Uses
 ### Clone the repo and go to `Django_Microsoft_and_Google_SSO` folder
 ```bash
