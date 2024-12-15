@@ -14,6 +14,12 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
+
+### Migrate the tables
+```bash
+python manage.py migrate
+```
+
 ### Run the Django Server
 ```bash
 python manage.py runserver
